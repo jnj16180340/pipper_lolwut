@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "find . -path '*/__pycache__*' -delete",
     "preinstall": "",
-    "postinstall": "echo \"export PYTHONPATH=$(dirname ${PWD}):$PYTHONPATH\" >> ${INIT_CWD}/.env"
+    "postinstall": "echo \"export PYTHONPATH=$(dirname ${PWD})\" >> ${INIT_CWD}/.env"
   },
   "keywords": [
     "python",
