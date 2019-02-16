@@ -1,13 +1,13 @@
 {
   "name": "@pipper/lolwut",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A simple Python package",
   "main": "__init__.py",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "find . -path '*/__pycache__*' -delete",
-    "postinstall": "source ${INIT_CWD}/.env",
-    "preinstall": "echo \"export PYTHONPATH=$(dirname ${PWD}):$PYTHONPATH\" >> ${INIT_CWD}/.env"
+    "preinstall": "",
+    "postinstall": "echo \"export PYTHONPATH=$(dirname ${PWD}):$PYTHONPATH\" >> ${INIT_CWD}/.env"
   },
   "keywords": [
     "python",
