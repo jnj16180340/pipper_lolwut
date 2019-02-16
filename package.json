@@ -1,0 +1,19 @@
+{
+  "name": "@pipper/lolwut",
+  "version": "0.1.0",
+  "description": "A simple Python package",
+  "main": "__init__.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "find . -path '*/__pycache__*' -delete"
+  },
+  "keywords": [
+    "python",
+    "lolwut"
+  ],
+  "author": "Plasma Snake",
+  "license": "WTFPL",
+  "homepage": "",
+  "engines" : { "python" : ">=3.0.0" },
+  "os": ["linux"]
+}
